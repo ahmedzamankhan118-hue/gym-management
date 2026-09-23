@@ -1,0 +1,401 @@
+/* ================= GENERAL ================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+h2 span {
+    color: #ff1744;
+}
+
+.red-text {
+    color: #ff1744;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #ff1744;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ff1744 !important;
+}
+
+.navbar .btn {
+    font-weight: bold;
+}
+
+
+/* ================= HERO ================= */
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(35%);
+}
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    text-align: left;
+    left: 10%;
+    max-width: 650px;
+}
+
+.small-title {
+    color: #ff1744;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.carousel-caption h1 span {
+    color: #ff1744;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.carousel-caption .btn {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    background-color: #151515;
+}
+
+.about h2 {
+    font-size: 42px;
+}
+
+.about p {
+    color: #bbbbbb;
+    line-height: 1.7;
+}
+
+.about img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ================= FEATURES ================= */
+
+.features {
+    background-color: #111;
+}
+
+.feature-box {
+    background-color: #1c1c1c;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    border-bottom: 3px solid #ff1744;
+}
+
+.feature-box i {
+    color: #ff1744;
+    font-size: 40px;
+}
+
+.feature-box h4 {
+    margin-top: 15px;
+}
+
+.feature-box p {
+    color: #aaa;
+}
+
+
+/* ================= PROGRAMS ================= */
+
+.programs {
+    background-color: #181818;
+}
+
+.program-box {
+    background-color: #111;
+    padding: 35px;
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.program-box:hover {
+    transform: translateY(-8px);
+    border-color: #ff1744;
+}
+
+.program-box i {
+    color: #ff1744;
+    font-size: 45px;
+}
+
+.program-box h3 {
+    margin-top: 20px;
+}
+
+.program-box p {
+    color: #aaa;
+}
+
+.program-box a {
+    color: #ff1744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ================= STATS ================= */
+
+.stats {
+    background-color: #ff1744;
+}
+
+.stats h2 {
+    font-size: 45px;
+}
+
+.stats p {
+    font-weight: bold;
+}
+
+
+/* ================= MEMBERSHIP ================= */
+
+.membership {
+    background-color: #111;
+}
+
+.price-box {
+    background-color: #1b1b1b;
+    padding: 35px;
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #333;
+       color: #aaa;
+    line-height: 1.7;
+}
+
+.program-box a {
+    color: #ff1744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* ================= STATS ================= */
+
+.stats {
+    background-color: #ff1744;
+}
+
+.stats h2 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.stats p {
+    font-weight: bold;
+}
+
+
+/* ================= MEMBERSHIP ================= */
+
+.membership {
+    background-color: #111;
+}
+
+.price-box {
+    background-color: #1c1c1c;
+    padding: 35px;
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #333;
+}
+
+.price-box h3 {
+    font-size: 28px;
+}
+
+.price {
+    color: #ff1744;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.price small {
+    color: #999;
+    font-size: 14px;
+}
+
+.price-box p {
+    color: #ccc;
+}
+
+.price-box hr {
+    border-color: #444;
+}
+
+.price-box.popular {
+    border: 2px solid #ff1744;
+    position: relative;
+}
+
+.popular-label {
+    background-color: #ff1744;
+    color: white;
+    padding: 7px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0 10px 0 10px;
+}
+
+
+/* ================= CTA ================= */
+
+.cta {
+    background-color: #1c1c1c;
+}
+
+.cta h2 {
+    font-size: 42px;
+}
+
+.cta p {
+    color: #aaa;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: #080808;
+}
+
+.footer h3 {
+    font-size: 28px;
+}
+
+.footer h3 span {
+    color: #ff1744;
+}
+
+.footer h5 {
+    color: #ff1744;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #999;
+}
+
+.footer a {
+    display: block;
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer hr {
+    border-color: #333;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .carousel-item {
+        height: 550px;
+    }
+
+    .carousel-item img {
+        height: 550px;
+    }
+
+    .carousel-caption {
+        left: 8%;
+        right: 8%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .about h2 {
+        font-size: 32px;
+    }
+
+    .cta h2 {
+        font-size: 32px;
+    }
+
+}
